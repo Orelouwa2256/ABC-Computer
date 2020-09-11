@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <nav>
+        <a href="Index.html">Index</a>
+        /
+         <a href="Tutorial.html">Tutorial</a>
+         /
+         <a href="Timetable.html">Timetable</a>
+         /
+         <a href="Register.html">Register</a>
+         /
+         <a href="Blog.html">Blog</a>
+         /
+         <a href="Gallery.html">Gallery</a>
+     </nav>
+     
+   <div>
+       <h1>This is the registration page</h1>
+    <a href="Index.html">Back to home page</a>
+   </div>
+   <br>
+   <hr>
+   <div>
+       <form action="Register.php" method="POST">
+           <label for="fname">Full Name:</label>
+           <br>
+           <input type="text" name="fname" id="fname">
+           <br><br>
+           <label for="femail">Email:</label>
+           <br>
+           <input type="email" name="femail" id="femail">
+           <br><br>
+           <label for="fpword">Password:</label>
+           <br>
+           <input type="password" name="fpword" id="fpword">
+           <br><br>
+           <label for="fage">Age:</label>
+           <br>
+           <input type="number" name="fage" id="fage">
+           <br><br>
+           <label for="dob">Date of Birth</label>
+           <br>
+           <input type="date" name="dob" id="dob">
+           <br><br>
+           Select Gender Type:
+           <br>
+           <input type="radio" name="fgender" id="fmale">
+           <label for="fmale">Male</label>
+           <br>
+           <input type="radio" name="fgender" id="ffemale">
+           <label for="ffemale">Female</label>
+           <br>
+           <input type="radio" name="fgender" id="fothers">
+           <label for="fothers">Others</label>
+           <br><br>
+           Select one or more subjects:
+           <br>
+           <input type="checkbox" name="fmaths" id="fmaths">
+           <label for="fmaths">Mathematics</label>
+           <br>
+           <input type="checkbox" name="fenglish" id="fenglish">
+           <label for="fenglish">English</label>
+           <br>
+           <input type="checkbox" name="fcomputer" id="fcomputer">
+           <label for="fcomputer">Computer Science</label>
+           <br>
+           <input type="checkbox" name="fsocial" id="fsocial">
+           <label for="fsocial">Social Studies</label>
+           <br><br>
+           <label for="fnote">Note</label>
+           <br>
+           <textarea name="fnote" id="fnote" cols="30" rows="10"></textarea>
+           <br><br>
+           <input type="submit" value="Submit" name="sumbit">
+       </form>
+   </div>
+</body>
+</html>
